@@ -1,0 +1,131 @@
+/*--------------Header-----------*/
+header{
+    min-height: 100vh;
+    background-image: url("../img/header-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 4px 20px !important;
+    margin: 0 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: #ee3563;
+}
+header h5{
+    margin: 130px 0 20px 0;
+}
+
+header h1{
+    margin: 20px 0 60px 0;
+    font-size: 70px;
+}
+.span-underline{
+    display: block;
+    height: 3px;
+    width: 100px;
+    background:#ee3563;
+    margin: auto;
+
+}
+header .btn-design{
+    background: #ee3563;
+    color: #fff; 
+    border-radius: 30px;
+    padding: 0;
+    padding: 12px 40px;
+}
+
+header .btn-design:hover{
+    background: #da1c4b;
+    color: #fff;
+}
+.quatation{
+    background: #f5f5f5;
+}
+/*-----------Even---------*/
+.event .btn-design{
+    background: #ee3563;
+    color: #fff; 
+    border-radius: 30px;
+    padding: 0;
+    padding: 12px 40px;
+}
+.event .btn-design:hover{
+    background: #da1c4b;
+    color: #fff;
+}
+.event p{
+    font-size: 18px;
+}
+.event h1{
+    margin-top: 100px;
+}
+/*----------------Elementor bg----------------*/
+.elementor {
+    background-image: url("../img/elementor-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.elementor .col-md-6{
+    padding: 150px 0;
+}
+.elementor-span-underline{
+    display: block;
+    height: 3px;
+    width: 100px;
+    background:#ee3563;
+    margin: 20px 0;
+
+}
+.elementor p{
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+.elementor .btn-design{
+    background: #ee3563;
+    color: #fff; 
+    border-radius: 30px;
+    padding: 0;
+    padding: 12px 40px;
+}
+.elementor .btn-design:hover{
+    background: #da1c4b;
+    color: #fff;
+}
+/*-----------------tour section--------------------*/
+.tour .btn-design{
+    background: #ee3563;
+    color: #fff; 
+    border-radius: 30px;
+    padding: 0;
+    padding: 12px 40px;
+}
+.tour .btn-design:hover{
+    background: #da1c4b;
+    color: #fff;
+}
+.tour h1{
+    font-size: 40px;
+}
+.tour p{
+    font-size: 17px;
+    text-align: justify;
+}
+.tour .col-md-4{
+    padding: 120px 0;
+}
+/*---------------------footer----------------*/
+footer{
+    background-color: #191919;
+    padding: 100px 0;
+}
